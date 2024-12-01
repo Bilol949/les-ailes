@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.har{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+button{
+   
+    border: none;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14.75px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 256px;
+height: 36px;
+border-radius: 12px;
+
+background: rgb(252, 0, 74);
+}
+header{
+    padding: 20px 25px;
+}
+nav{
+    gap: 15px;
+    display: flex;
+}
+.ikkinchi{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 14.63px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+@media screen and (max-width:768px) {
+    button{
+        width: 200px;
+    }
+    .birinchi{
+        display: none;
+    }
+    main .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:576px) {
+    .birinchi{
+    
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+   .ikkinchi{
+    display: block;
+   }
+}
+#hero{
+    padding: 60px 24px ;
+}
+.uchinchi{
+    border-radius: 10px;
+    width: 100%;
+
+}
+h1{
+     margin-top: 64px;
+    color: rgb(38, 38, 38);
+    font-family: Inter;
+    font-size: 32.48px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.box{ 
+    position: relative;
+    width: 235px;
+height: 391px;
+border-radius: 15px;
+
+box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1),0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
+#card{ 
+    padding: 24px;
+}
+#card .container{   
+    flex-wrap: wrap;
+    gap: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: rgb(252, 0, 74);
+font-family: Inter;
+font-size: 18.28px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.set{
+    margin-left: 12px;
+}
+p{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 17.66px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.web{
+    right: 12px;
+    bottom: 12px;
+    position: absolute;
+    align-items: center;
+    font-size: 28px;
+    background-color: rgb(249, 5, 5); 
+color: white;  
+  width: 40px;
+height: 40px;
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+footer{
+    padding: 81px 72px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
